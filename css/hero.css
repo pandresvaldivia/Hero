@@ -1,0 +1,80 @@
+.hero {
+	background: url('../assets/images/background.png') no-repeat right;
+	background-size: cover;
+	block-size: 17.125rem;
+	inline-size: 100%;
+}
+
+.hero-logo {
+	margin: 0;
+	block-size: 2rem;
+}
+
+.hero-logo img {
+	block-size: 100%;
+	inline-size: auto;
+	vertical-align: middle;
+}
+
+.hero-content {
+	inline-size: 85%;
+	margin-inline-end: auto;
+	margin-inline-start: auto;
+	max-inline-size: 40rem;
+	padding-block-end: calc(12.5% + 3.125rem);
+	padding-block-start: 1.5rem;
+}
+
+.hero-description {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+	.hero {
+		block-size: 36.5rem;
+	}
+
+	.hero-logo {
+		block-size: 5rem;
+	}
+
+	.hero-content {
+		padding-block-start: 2.5rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.hero {
+		block-size: auto;
+	}
+
+	.hero-main {
+		background: var(--black);
+		flex-shrink: 0;
+		inline-size: 40%;
+	}
+
+	.hero-logo {
+		block-size: 4rem;
+	}
+
+	.hero-content {
+		align-items: center;
+		background: var(--black);
+		block-size: 100%;
+		clip-path: polygon(0 0, 77% 0, 100% 100%, 0% 100%);
+		display: flex;
+		inline-size: 125%;
+		left: 83px;
+		max-inline-size: none;
+		padding: 0;
+		position: relative;
+	}
+
+	.hero-description {
+		align-items: flex-start;
+		max-inline-size: 26.6875rem;
+	}
+}

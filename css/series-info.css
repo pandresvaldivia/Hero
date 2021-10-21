@@ -1,0 +1,23 @@
+.seriesInfo {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.seriesInfo-notice {
+	font: var(--headline2);
+}
+
+.seriesInfo > * {
+	margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+	.seriesInfo-notice {
+		font: var(--headline1);
+	}
+
+	.seriesInfo-description {
+		font: var(--body1-regular);
+	}
+}

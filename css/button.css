@@ -1,0 +1,34 @@
+.button {
+	background: var(--primary);
+	border-radius: 3.125rem;
+	color: var(--white);
+	font: var(--button);
+	padding-block-end: 1rem;
+	padding-block-start: 1rem;
+	padding-inline-end: 2rem;
+	padding-inline-start: 2rem;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: font-size 0.3s;
+	-moz-border-radius: 3.125rem;
+	-moz-transition: font-size 0.3s;
+	-ms-border-radius: 3.125rem;
+	-ms-transition: font-size 0.3s;
+	-o-border-radius: 3.125rem;
+	-o-transition: font-size 0.3s;
+	-webkit-border-radius: 3.125rem;
+	-webkit-transition: font-size 0.3s;
+}
+
+.button:hover {
+	font-size: 0.95rem;
+}
+
+.button:active {
+	transform: scale(0.95);
+	-webkit-transform: scale(0.95);
+	-moz-transform: scale(0.95);
+	-ms-transform: scale(0.95);
+	-o-transform: scale(0.95);
+}

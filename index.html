@@ -12,25 +12,161 @@
 			rel="stylesheet"
 		/>
 
-		<title>Hero</title>
+		<!-- Primary Meta Tags -->
+		<title>Hero Loki</title>
+		<meta name="title" content="Hero Loki" />
+		<meta
+			name="description"
+			content="Accede a todas las películas y series de televisión de Marvel que puedes disfrutar. Comience a transmitir ahora."
+		/>
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://pandresvaldivia.github.io/Hero/" />
+		<meta property="og:title" content="Hero Loki" />
+		<meta
+			property="og:description"
+			content="Accede a todas las películas y series de televisión de Marvel que puedes disfrutar. Comience a transmitir ahora."
+		/>
+		<meta
+			property="og:image"
+			content="https://pandresvaldivia.github.io/Hero/assets/images/thumbnail.png"
+		/>
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta
+			property="twitter:url"
+			content="https://pandresvaldivia.github.io/Hero/"
+		/>
+		<meta property="twitter:title" content="Hero Loki" />
+		<meta
+			property="twitter:description"
+			content="Accede a todas las películas y series de televisión de Marvel que puedes disfrutar. Comience a transmitir ahora."
+		/>
+		<meta
+			property="twitter:image"
+			content="https://pandresvaldivia.github.io/Hero/assets/images/thumbnail.png"
+		/>
+
+		<!-- Favicon -->
+		<link
+			rel="apple-touch-icon"
+			sizes="57x57"
+			href="./assets/favicon/apple-icon-57x57.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="60x60"
+			href="./assets/favicon/apple-icon-60x60.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="72x72"
+			href="./assets/favicon/apple-icon-72x72.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="76x76"
+			href="./assets/favicon/apple-icon-76x76.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="114x114"
+			href="./assets/favicon/apple-icon-114x114.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="120x120"
+			href="./assets/favicon/apple-icon-120x120.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="144x144"
+			href="./assets/favicon/apple-icon-144x144.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="152x152"
+			href="./assets/favicon/apple-icon-152x152.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="./assets/favicon/apple-icon-180x180.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="192x192"
+			href="./assets/favicon/android-icon-192x192.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/favicon/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="96x96"
+			href="./assets/favicon/favicon-96x96.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="./assets/favicon/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="./assets/favicon/manifest.json" />
+		<meta name="msapplication-TileColor" content="#ffffff" />
+		<meta
+			name="msapplication-TileImage"
+			content="./assets/favicon/ms-icon-144x144.png"
+		/>
+		<meta name="theme-color" content="#ffffff" />
+
+		<!-- Styles -->
 		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./css/hero.css" />
+		<link rel="stylesheet" href="./css/series-info.css" />
+		<link rel="stylesheet" href="./css/button.css" />
 	</head>
 	<body class="body">
-		<div class="hero"></div>
 		<div class="wrapper">
-			<header>
-				<figure>
-					<img src="./assets/images/title.png" alt="Logo de la serie Loki" />
-				</figure>
-			</header>
-			<section class="seriesInfo">
-				<h2 class="seriesInfo-notice">¡DISPONIBLE AHORA!</h2>
-				<p class="seriesInfo-description">
-					Ha llegado el momento de Loki. Una nueva serie original, transmitida
-					exclusivamente en Disney +.
-				</p>
-			</section>
-			<a href="#" class="button" title="Ir a Disney+">Ir a disney+</a>
+			<div class="hero"></div>
+			<main class="hero-main">
+				<section class="hero-content">
+					<div class="hero-description">
+						<figure class="hero-logo">
+							<a href="./index.html" aria-current="page">
+								<img
+									src="./assets/images/title.png"
+									height="32"
+									width="77.6"
+									alt="Logo de la serie Loki"
+								/>
+							</a>
+						</figure>
+						<section class="seriesInfo">
+							<h2 class="seriesInfo-notice">¡DISPONIBLE AHORA!</h2>
+							<p class="seriesInfo-description">
+								Ha llegado el momento de Loki. Una nueva serie original,
+								transmitida exclusivamente en Disney +.
+							</p>
+						</section>
+						<a
+							href="https://www.disneyplus.com/home"
+							target="_blank"
+							rel="noreferrer"
+							class="button"
+							title="Ir a Disney+"
+							>Ir a disney+</a
+						>
+					</div>
+				</section>
+			</main>
 		</div>
 	</body>
 </html>

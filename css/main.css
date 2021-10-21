@@ -1,22 +1,33 @@
 :root {
 	--white: #ffffff;
-	--black-1: #202020;
+	--black: #202020;
 	--primary: #1b90fc;
-	--grey: #929292;
 	--fontBase: 'Roboto Condensed', sans-serif;
 	--fontAux: 'Roboto', sans-serif;
 	--headline1: 700 2.5rem / normal var(--fontBase);
-	--subtitle1: 700 1.625rem/1.5rem var(--fontBase);
 	--button: 700 0.875rem/1rem var(--fontAux);
 	--headline2: 700 1.5rem / normal var(--fontBase);
 	--body1-regular: 400 1rem/1.5rem var(--fontAux);
-	--body1-bold: 700 1rem/1.5rem var(--fontAux);
-	--body2-bold: 700 0.875rem/1.5rem var(--fontAux);
 	--body2-regular: 400 0.875rem/1.5rem var(--fontAux);
-	--caption-regular: 400 0.75rem/1.5rem var(--fontAux);
-	--caption-bold: 700 0.75rem/1.5rem var(--fontAux);
 }
 
 .body {
 	background: var(--white);
+	color: var(--white);
+	font: var(--body1-regular);
+	margin: 0;
+	min-inline-size: 22.5rem;
+}
+
+.wrapper {
+	background: var(--black);
+	clip-path: polygon(0 0, 100% 0, 100% 87.5%, 0% 100%);
+	min-block-size: 100vh;
+}
+
+@media screen and (min-width: 1024px) {
+	.wrapper {
+		display: flex;
+		flex-direction: row-reverse;
+	}
 }
